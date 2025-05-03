@@ -1,0 +1,252 @@
+.erectionContainer {
+    margin-top: 6rem;
+
+
+}
+
+.main-container erectionContainer {
+    position: relative;
+}
+
+
+.enginerCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    height: 30vh;
+    
+    /* overflow-y: scroll; */
+    /* background-color: lightblue; */
+    padding: 0.8rem;
+
+
+}
+
+.enginerCardHover {
+    background-color: white;
+    /* background-color: lightgreen; */
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px #25252529;
+}
+
+.enginerCardsContainer::-webkit-scrollbar {
+    width: 2px;
+    border-radius: 20px;
+}
+
+.enginerCardsContainer::-webkit-scrollbar:hover {
+    display: block;
+}
+
+.enginerCardsContainer::-webkit-scrollbar-track {
+    background: 0;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.enginerCardsContainer::-webkit-scrollbar-thumb {
+    display: none;
+    transition: background-color 0.3s ease;
+    /* border: 1px solid #ffffff; */
+}
+
+.enginerCardsContainer:hover::-webkit-scrollbar-thumb {
+    background: 0;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.enginerCardsContainer:hover::-webkit-scrollbar-thumb {
+    background-color: #F8AC1D;
+    border: 1px solid #F8AC1D;
+}
+
+.enginerCardHover:hover {
+    box-shadow: 1px 2px 5px #F8AC1D80;
+}
+
+.erectionEngineerDetails {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.erectionEnggprofile {
+    font-size: 0.9rem;
+    text-wrap: nowrap;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    letter-spacing: 0px;
+    color: #444444;
+    font-family: "Poppins";
+}
+
+.erectionEngineerMessageIcon {
+    position: relative;
+}
+
+.erectionEngineerMap {
+    height: 50vh !important;
+    margin-top: 2rem !important;
+}
+
+.erectionEngineerStatusWorking {
+    border: 1px solid #46A70A;
+}
+
+.erectionEngineerStatusBreak {
+    border: 1px solid #F8AC1D;
+}
+
+.erectionEngineerStatusLeave {
+    border: 1px solid #C10000;
+}
+
+.erectionEngineerParent {
+    padding: 1rem;
+}
+
+.erectionEngCardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    height: 84vh;
+    overflow-y: scroll;
+    justify-items: center;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+.erectionEngCardContainer::-webkit-scrollbar {
+    width: 2px;
+    border-radius: 20px;
+}
+
+.erectionEngCardContainer::-webkit-scrollbar:hover {
+    display: block;
+}
+
+.erectionEngCardContainer::-webkit-scrollbar-track {
+    background: 0;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.erectionEngCardContainer::-webkit-scrollbar-thumb {
+    display: none;
+    transition: background-color 0.3s ease;
+    /* border: 1px solid #ffffff; */
+}
+
+.erectionEngCardContainer:hover::-webkit-scrollbar-thumb {
+    background: 0;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.erectionEngCardContainer:hover::-webkit-scrollbar-thumb {
+    background-color: #F8AC1D;
+    border: 1px solid #F8AC1D;
+}
+
+.erectionEngCards {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 2px 4px 10px 1px #00000029;
+    width: 80%;
+    padding-top: 1rem;
+}
+
+.erectionEngCardsDetails {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.erectionEngineerPicParent {
+    width: 20%;
+}
+
+.erectionEngineerPic {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+
+.erectionEningeerDetailsContainer {
+    width: 70%;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.2rem;
+}
+
+.erectionEngDetail {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.erectionEngLabel {
+    width: 50%;
+}
+
+.erectionEngValue {
+    width: 50%;
+    font-weight: 600;
+    align-self: center;
+    color: #444444;
+}
+
+.erectionEngineerMessage {
+    width: 100%;
+    padding: 0.4rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    border-radius: 10px;
+    box-shadow: 0 -4px 10px -2px #F8AC1D
+}
+
+.erectionMessageCard {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+}
+
+.messsageIconErectionEngineer {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messsageErectionEngineer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numberOfMesssageErectionEngineer {
+    background-color: #F8AC1D4D;
+    padding: 0.7rem 0.9rem;
+    border-radius: 100%;
+}

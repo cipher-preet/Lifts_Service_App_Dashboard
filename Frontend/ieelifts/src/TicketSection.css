@@ -1,0 +1,32 @@
+.edit-button {
+    padding: 12px 50px;
+    border-radius: 5px;
+    border: 1px solid #f8ac1d;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.1s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.edit-button:hover {
+    padding: 12px 50px;
+    border-radius: 5px;
+    border: 1px solid #f8ac1d;
+    background: #f8ac1d;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.edit-button-onClick {
+    padding: 12px 50px;
+    border-radius: 5px;
+    border: 1px solid #f8ac1d;
+    background: #f8ac1d;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
