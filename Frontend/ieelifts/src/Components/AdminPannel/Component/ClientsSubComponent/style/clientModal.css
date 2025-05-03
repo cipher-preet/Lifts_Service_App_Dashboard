@@ -1,0 +1,46 @@
+
+
+/* This is client modal css  */
+/* ------------------------Raj Pardhi-------------------------------------- */
+
+
+.client-modal-img-container{
+    background-color: red;
+    height: 3.9rem;
+    border-radius: 2px;
+    width: 4.4rem;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.client-modal-img-container img{
+    height: 3.9rem;
+    width: 4.4rem;
+object-fit: cover;
+
+}
+
+.client-modal-text-container h5{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.client-modal-text-container p{
+
+    font-size: 1rem;
+    color:#9c9a9a;
+    font-weight: 400;
+}
+
+
+  
+.client-modal-profile-pdficon{
+    cursor: pointer;
+}
+
+.client-modal-profile-excelicon{
+    cursor: pointer;
+
+}
+
+.cross-icon{
+    cursor: pointer;
+}
